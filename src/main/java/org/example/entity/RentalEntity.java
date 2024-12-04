@@ -20,4 +20,7 @@ public class RentalEntity {
     private Integer returnDate;
     private Integer dueDate;
     private Integer totalCost;
+    private String customerName;
+    private Integer itemId;
+    private String itemName;
 }
