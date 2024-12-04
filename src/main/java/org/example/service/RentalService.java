@@ -9,7 +9,7 @@ public interface RentalService {
 
     void addRental(Rental rental);
 
-    Rental searchRentalId(Integer id);
+    Rental searchRentalById(Integer id);
 
     void deleteRentalById(Integer id);
 

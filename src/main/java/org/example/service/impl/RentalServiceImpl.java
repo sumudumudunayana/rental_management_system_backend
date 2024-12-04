@@ -32,8 +32,9 @@ public class RentalServiceImpl implements RentalService {
         repository.save(mapper.map(rental, RentalEntity.class));
     }
 
+
     @Override
-    public Rental searchRentalId(Integer id) {
+    public Rental searchRentalById(Integer id) {
         return mapper.map(repository.findById(id), Rental.class);
 
     }
