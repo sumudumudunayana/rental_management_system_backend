@@ -13,6 +13,6 @@ public class HardwareItem {
     private Integer itemId;
     private String itemName;
     private String availability;
-    private Integer finePerDay;
-    private Integer rentalPerDay;
+    private String finePerDay;
+    private String rentalPerDay;
 }

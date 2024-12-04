@@ -18,7 +18,7 @@ public class RentalController {
     @Autowired
     final RentalService service;
 
-    @GetMapping
+    @GetMapping("/get-all")
     public List<Rental> getRental(){
         return service.getall();
     }

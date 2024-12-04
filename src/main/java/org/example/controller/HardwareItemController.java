@@ -20,7 +20,7 @@ public class HardwareItemController {
     @Autowired
     final HardwareItemService service;
 
-    @GetMapping
+    @GetMapping("/get-all")
     public List<HardwareItem> getHardwareItem(){
         return service.getall();
     }
