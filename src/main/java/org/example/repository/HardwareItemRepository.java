@@ -1,4 +1,7 @@
 package org.example.repository;
 
-public interface HardwareItemRepository {
+import org.example.entity.HardwareItemEntity;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface HardwareItemRepository extends JpaRepository<HardwareItemEntity,Integer> {
 }
